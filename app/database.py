@@ -3,7 +3,7 @@ import mysql.connector
 def get_db_connection():
     return mysql.connector.connect(
         user='root',
-        password='Youshikyou1020!',
+        password='xxx',
         host='localhost',
         database='DemaAI'
     )
