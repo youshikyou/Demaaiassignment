@@ -17,3 +17,6 @@
 
 #### Note: there is no password in the database.py, so it cannot run if you don't set it up
 
+
+## To improve
+1. Use docker container to set up the python env 
