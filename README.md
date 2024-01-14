@@ -19,4 +19,9 @@
 
 
 ## To improve
-1. Use docker container to set up the python env 
+1. Use docker container to set up the python env
+2. Integrate logging and monitoring to track API usage and error
+3. Asynchronous database calls to handle requests to improve the performance under load
+4. Enhance data validation logic in Pydantic models:page value contraints to not less than 0 , 
+   category fields that should only accept a specific set of values
+5. Environment configuration to use configuration files for managing files like database password
